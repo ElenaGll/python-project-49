@@ -6,7 +6,7 @@ from brain_games.logic import lounch
 
 
 def main():
-    lounch(even_game)  
+    lounch(even_game)
 
 
 if __name__ == '__main__':

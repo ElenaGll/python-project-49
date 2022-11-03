@@ -10,7 +10,6 @@ def lounch(game):
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
 
-
     index = 0
     while index < SCORE:
         question, correct_answer = game.get_round_data()
@@ -24,6 +23,5 @@ def lounch(game):
                   f"'{correct_answer}'.\nLet's try again, {name}!")
             return
         index += 1
-
 
     print(f'Congratulations, {name}!')
