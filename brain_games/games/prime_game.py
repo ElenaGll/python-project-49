@@ -1,7 +1,7 @@
 import random
 
 
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 START_NUMBER = 1
 END_NUMBER = 301
 
@@ -13,7 +13,7 @@ def get_round_data():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-        
+
     return question_number, correct_answer
 
 
@@ -21,7 +21,7 @@ def is_prime(num):
     if num < 2:
         return False
 
-    for i in range(2, random_number):
+    for i in range(2, num):
         if num % i == 0:
             return False
 
