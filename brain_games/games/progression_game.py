@@ -25,4 +25,4 @@ def get_round_data():
     index_missing_number = random.randint(0, len_progr - 1)
     missing_number = str(progr[index_missing_number])
     progr[index_missing_number] = '..'
-    return ' '.join(map(str, progr)) , missing_number
+    return ' '.join(map(str, progr)), missing_number
